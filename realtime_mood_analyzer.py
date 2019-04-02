@@ -18,7 +18,7 @@ tone_analyzer = ToneAnalyzerV3(
     url='HERE'
 )
 # who you want to send texts to
-chat_with = 'Abhishek Singh'
+chat_with = 'YOUR CONTACT NAME'
 
 def request_until_succeed(url):
     req = Request(url)
@@ -45,7 +45,7 @@ def sendMessage(msg='Hi!'):
 last_msgs=[]
 url = "https://web.whatsapp.com/"
 # path to the chromedriver file
-driver = webdriver.Chrome("/home/amit/Projects/Moths Of Aurora/EC2_data/fb-scraper/chromedriver")
+driver = webdriver.Chrome("PATH TO THE CHROME DRIVER FILE")
 driver.get(url)
 
 # you got 15 seconds to log in to whatsapp web, change it as required
